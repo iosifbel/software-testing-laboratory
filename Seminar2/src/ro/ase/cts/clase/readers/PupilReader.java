@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PupilReader {
-    public static List<Aplicant> readPupil(String file) throws FileNotFoundException {
+public class PupilReader extends Reader {
+    public List<Aplicant> readPupil(String file) throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(file));
         input2.useDelimiter(",|\n");
         List<Aplicant> elevi = new ArrayList<Aplicant>();
@@ -34,4 +34,8 @@ public class PupilReader {
         return elevi;
     }
 
+    @Override
+    public List<Aplicant> readAplicants(String file) throws FileNotFoundException, NumberFormatException {
+        return null;
+    }
 }
