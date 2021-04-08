@@ -1,6 +1,6 @@
-package program;
+package ro.ase.cts.Facade.program;
 
-import ro.ase.cts.clase.*;
+import ro.ase.cts.Facade.clase.*;
 
 public class Main {
     public static void main(String[] args) {

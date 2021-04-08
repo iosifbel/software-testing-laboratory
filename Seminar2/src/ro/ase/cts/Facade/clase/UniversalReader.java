@@ -1,7 +1,7 @@
 
-package ro.ase.cts.clase;
+package ro.ase.cts.Facade.clase;
 
-import ro.ase.cts.clase.readers.Reader;
+import ro.ase.cts.Facade.clase.readers.Reader;
 
 import java.io.FileNotFoundException;
 import java.util.List;
