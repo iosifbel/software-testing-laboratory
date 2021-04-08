@@ -1,19 +1,23 @@
 package ro.ase.cts.adapter.clase;
 
-public class AdapterBilet extends Bilet implements BiletOnline {
+//de obiecte
+public class AdapterBilet implements BiletOnline {
 
-    public AdapterBilet(float pret) {
-        super(pret);
+    private Bilet bilet;
+
+    public AdapterBilet(Bilet bilet) {
+        super();
+        this.bilet = bilet;
     }
 
     @Override
     public void vindeBilet() {
-        super.vinde();
+        bilet.vinde();
 
     }
 
     @Override
     public void rezervaBilet() {
-        super.rezerva();
+        bilet.rezerva();
     }
 }
