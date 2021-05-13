@@ -1,9 +1,9 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.observer.clase;
 
-public class Client implements Observer {
+public class Clientu implements Observator {
     private String nume;
 
-    public Client(String nume) {
+    public Clientu(String nume) {
         this.nume = nume;
     }
 

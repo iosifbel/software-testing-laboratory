@@ -1,14 +1,15 @@
-package ro.ase.cts.program;
+package ro.ase.cts.observer.program;
 
-import ro.ase.cts.clase.Client;
-import ro.ase.cts.clase.ManagerSala;
-import ro.ase.cts.clase.Observer;
+import ro.ase.cts.observer.clase.Clientu;
+import ro.ase.cts.observer.clase.ManagerSali;
+import ro.ase.cts.observer.clase.Observator;
+
 
 public class Main {
     public static void main(String[] args) {
-        ManagerSala manager = new ManagerSala();
-        Observer client1 = new Client("Popescu");
-        Observer client2 = new Client("Popescu2");
+        ManagerSali manager = new ManagerSali();
+        Observator client1 = new Clientu("Popescu");
+        Observator client2 = new Clientu("Popescu2");
 
         manager.adaugaObserver(client1);
         manager.adaugaObserver(client2);

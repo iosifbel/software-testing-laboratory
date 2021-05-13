@@ -1,6 +1,6 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.observer.clase;
 
-public class ManagerSala extends Subiect {
+public class ManagerSali extends Subiect {
     private String tipMeci;
 
     public String getTipMeci() {
